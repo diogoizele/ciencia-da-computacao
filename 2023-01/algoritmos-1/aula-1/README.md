@@ -1,54 +1,64 @@
 # Aula 1
 
-## Aula
+> ⁉️ **Lógica** é a arte de pensar bem. A técnica de encadear os pensamentos de modo a obter uma conclusão certa, e está normalmente relacionada à coerência e à racionalidade.
 
-O professor apresentou um problema que consistia em 3 elementos numéricos, onde o objetivo era ordenalos do menor para o maior. Para isso, foi apresentado dois tipos de algoritmos com eficiências diferentes.
+> ⁉️ **Algoritmo** é um conjunto finito de instruções que, quando executadas, produzem um resultado.
 
-```
-A = 5     B = 8     C = 3
+## Técnicas de desenvolvimento estruturado de algoritmos
 
-AUX // para auxiliar na troca
+- Usar somente um verbo por frase.
+- Imaginar que você está desenvolvendo um algoritmo para outras pessoas entenderem.
+- Usar frases curtas e simples.
+- Ser o mais preciso possível.
+- Procurar usar palavras que não tenham ambiguidade.
 
-```
+## Fases na construção de um algoritmo
 
-Inicialmente foi apresentado um algoritmo semelhante ao bubble-sort, onde o professor inicialmente verifica:
+- **Entrada** - dados de entrada para o algoritmo.
+- **Processamento** - procedimentos utilizados para chegar no resultado final.
+- **Saída** - dados já processados.
 
-- Se A é maior que B, então troca A com B
-- Se B é maior que C, então troca B com C
-- Se A é maior que B, então troca A com B
+Basicamente são 4 fases na construção de um algoritmo:
 
-Após isso o professor nos apresentou um outro algoritmo para este problema com apenas 3 elementos.
+1. **Entendimento do problema**.
+2. **Criação de uma sequência de operações para solução do problema**.
+3. **Execução desta sequência**.
+4. **Verificação se o resultado está adequado e solucionou o problema**.
 
-> ⚠️ **Atenção**: Este algoritmo só é mais eficiente para 3 elementos, para mais elementos, o algoritmo anterior é mais eficiente.
+## Formas de representar um algoritmo
 
-Aqui utilizaremos duas "variáveis" que representarão o MAIOR e o MENOR elemento.
+- Diagrama de blocos/fluxograma: é uma forma padronizada e eficaz para representar os passos lógicos de um determinado processamento.
 
-Inicialmente o valor de MAIOR e MENOR será o primeiro elemento, ou seja, A.
+![Diagrama de blocos](./../imagens/mapa-diagrama-de-bloco.png)
 
-```
+- Diagrama de chapin: diagrama que apresenta uma visão hierárquica e estruturada da lógica do programa.
 
-MAIOR = A
-MENOR = A
+![Diagrama de chapin](./../imagens/Diagramas-Chapin-Fluxogramas3.jpeg)
 
-```
-
-Em seguida, comparo se B é maior que MAIOR, se for, então MAIOR recebe B, caso contrário, comparo se B é menor que MENOR, se for, então MENOR recebe B.
-
-Agora, comparo se C é maior que MAIOR, se for, então MAIOR recebe C, caso contrário, comparo se C é menor que MENOR, se for, então MENOR recebe C.
-
-Por fim para encontrar um elemento que fica no meio, basta realizar o seguinte cálculo:
-
-```
-
-MEIO = A + B + C - MAIOR - MENOR
+- Português estruturado ou pseudocódigo: é uma linguagem de programação que utiliza palavras-chave para representar as estruturas de controle de um programa.
 
 ```
+algoritmo "nome do algoritmo"
 
-## Tarefa
+var
+    n1, n2, soma: inteiro;
 
-### Meu primeiro algoritmo:
+inicio
+    escreva("Digite o primeiro número: ");
+    leia(n1);
+    escreva("Digite o segundo número: ");
+    leia(n2);
+    soma <- n1 + n2; // ou soma = n1 + n2
+    escreva("A soma dos números é: ", soma);
+fim algoritmo
+```
 
-#### Escreva o algoritmo para trocar uma lâmpada.
+- **Variável**: é um espaço na memória do computador que pode ser utilizado para armazenar um valor. O valor armazenado pode ser alterado durante a execução do programa.
+- **Expressão**: um conjunto de variáveis e constantes que se relacionam por meio de operadores aritméticos.
+
+## Tarefa - Meu primeiro algoritmo:
+
+### Escreva o algoritmo para trocar uma lâmpada.
 
 1. Verifique se a lâmpada está acesa, se estiver, apague-a.
 2. Verifique se você alcança a lâmpada, se não alcançar, pegue uma escada.
@@ -60,6 +70,18 @@ MEIO = A + B + C - MAIOR - MENOR
 8. Se você tiver pego uma escada, desça da escada.
 9. Vá até o interruptor.
 
-#### Escreva o algoritmo para somar dois números e mostrar o resultado da soma.
+### Escreva o algoritmo para somar dois números e mostrar o resultado da soma.
 
-#### Escreva um algoritmo para analisar um número inteiro qualquer e classificar se o número é par ou ímpar.
+1. Leia o primeiro número.
+2. Armazene o primeiro número em uma variável.
+3. Leia o segundo número.
+4. Armazena o segundo número em uma variável.
+5. Some os dois números e armazene o resultado em uma variável.
+6. Mostre o resultado da soma.
+
+### Escreva um algoritmo para analisar um número inteiro qualquer e classificar se o número é par ou ímpar.
+
+1. Leia o número.
+2. Armazene o número em uma variável.
+3. Verifique se o número % 2 é igual a 0.
+4. Se for igual a 0, o número é par, caso contrário, o número é ímpar.
