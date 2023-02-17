@@ -10,11 +10,7 @@
 - [HTML - Imagens](https://drive.google.com/open?id=1mo1WpLWRSIiMXvxA0p3DwkRH32w-NtYK/view)
 - [HTML - Tabelas](https://drive.google.com/open?id=1cAo9nDWoyg0Z2AZMYozZJkrMrk8hrHCT/view)
 
----
-
 ## Aulas
-
----
 
 ## Materiais complementares
 
