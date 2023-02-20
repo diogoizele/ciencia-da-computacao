@@ -14,6 +14,8 @@
 
 ## Revisões
 
+- [Envio de formulário HTML vanilla 🐘](bare-form/)
+
 ## Materiais complementares
 
 [Apostila HTML](Apostila-HTML-CPW.pdf)
