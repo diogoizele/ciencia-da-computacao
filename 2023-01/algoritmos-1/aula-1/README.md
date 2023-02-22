@@ -56,7 +56,79 @@ fim algoritmo
 - **Variável**: é um espaço na memória do computador que pode ser utilizado para armazenar um valor. O valor armazenado pode ser alterado durante a execução do programa.
 - **Expressão**: um conjunto de variáveis e constantes que se relacionam por meio de operadores aritméticos.
 
-## Tarefa - Meu primeiro algoritmo:
+## Teste de mesa
+
+Durante a aula foi apresentado dois exemplos de algoritmos para ordenar uma lista de 3 números em ordem cresente. O primeiro algoritmo foi feito baseando-se no algoritmo bubble sort, e o segundo algoritmo foi feito baseando-se no valor mínimo e máximo, calculando por fim o valor do meio.
+
+### Algoritmo 1
+
+```
+lista = [8, 5, 3]
+
+> 1º repetição
+> 1º comparação -> compara 8 com 5 // + 1 operação = 1
+> Como 8 é maior que 5, troca os valores
+
+> 1º 8 é colocado em uma variável auxiliar // + 1 operação = 2
+> 2º 5 é colocado no lugar de 8 // + 1 operação = 3
+> 3º auxiliar contendo 8 é colocado no lugar de 5 // + 1 operação = 4
+
+------------------------------------------------
+
+> 1º repetição
+> 2º comparação -> compara 8 com 3 // + 1 operação = 5
+> Como 8 é maior que 3, troca os valores
+
+> 1º 8 é colocado em uma variável auxiliar // + 1 operação = 6
+> 2º 3 é colocado no lugar de 8 // + 1 operação = 7
+> 3º auxiliar contendo 8 é colocado no lugar de 3 // + 1 operação = 8
+
+------------------------------------------------
+
+> 2º repetição
+> 1º comparação -> compara 5 com 3 // + 1 operação = 9
+> Como 5 é maior que 3, troca os valores
+
+> 1º 5 é colocado em uma variável auxiliar // + 1 operação = 10
+> 2º 3 é colocado no lugar de 5 // + 1 operação = 11
+> 3º auxiliar contendo 5 é colocado no lugar de 3 // + 1 operação = 12
+
+------------------------------------------------
+
+O número total de operações foi de 12
+```
+
+### Algoritmo 2
+
+```
+lista = [8, 5, 3]
+
+1º repetição
+
+1º comparação -> verifica se 8 é menor que o mínimo 5
+2º comparação -> verifica se 8 é maior que o máximo 5
+
+Como 8 é maior que 5, 8 é o novo máximo
+------------------------------------------------
+
+------------------------------
+2º repetição
+
+1º comparação -> verifica se 3 é menor que o mínimo 5
+Como 3 é menor que 5, 3 é o novo mínimo
+------------------------------------------------
+
+Calcula o meio: (5 + 8 + 3) - (3 + 8)
+
+
+Mínimo: 3
+Meio: 5
+Máximo: 8
+
+O número total de operações foi de 8
+```
+
+## Tarefa - meu primeiro algoritmo:
 
 ### Escreva o algoritmo para trocar uma lâmpada.
 
