@@ -103,22 +103,25 @@ O número total de operações foi de 12
 ```
 lista = [8, 5, 3]
 
+atribui ao min o primeiro valor -> 8 // + 1 operação = 1
+atribui ao max o primeiro valor -> 8 // + 1 operação = 2
+
 1º repetição
 
-1º comparação -> verifica se 8 é menor que o mínimo 5
-2º comparação -> verifica se 8 é maior que o máximo 5
+1º comparação -> verifica se 8 é menor que o mínimo 5 // + 1 operação = 3
+2º comparação -> verifica se 8 é maior que o máximo 5 // + 1 operação = 4
 
-Como 8 é maior que 5, 8 é o novo máximo
+Como 8 é maior que 5, 8 é o novo máximo // + 1 operação = 5
 ------------------------------------------------
 
 ------------------------------
 2º repetição
 
-1º comparação -> verifica se 3 é menor que o mínimo 5
-Como 3 é menor que 5, 3 é o novo mínimo
+1º comparação -> verifica se 3 é menor que o mínimo 5 // + 1 operação = 6
+Como 3 é menor que 5, 3 é o novo mínimo // + 1 operação = 7
 ------------------------------------------------
 
-Calcula o meio: (5 + 8 + 3) - (3 + 8)
+Calcula o meio: (5 + 8 + 3) - (3 + 8) // + 1 operação = 8
 
 
 Mínimo: 3
