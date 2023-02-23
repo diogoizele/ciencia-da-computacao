@@ -5,3 +5,4 @@ A disciplina de algoritmos I tem como objetivo desenvolver o raciocínio lógico
 ## Aulas
 
 - [Aula 01](aula-1/)
+- [Aula 02](aula-2/)
