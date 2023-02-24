@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Selection</title>
+  </head>
+  <body>
+    <h1>Título da Página - Get Selection</h1>
+    <h3>Clique em qualquer lugar da página para obter informações:</h3>
+    <p>
+      Lorem ipsum <strong>dolor sit amet consectetur adipisicing</strong> elit.
+      Beatae consequatur dolores dolore, molestias omnis ad explicabo sapiente
+      quasi possimus aliquam, repellat dolorum nisi consequuntur veritatis
+      fugiat tempore voluptatum eum vitae.
+    </p>
+    <hr />
+    <ul>
+      <li>Item 1 - <strong>Destaque</strong></li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+
+    <hr />
+    <h3>Resultado:</h3>
+    <p>Tag: <strong id="tag"></strong></p>
+    <p>Conteúdo: <strong id="content"></strong></p>
+
+    <script>
+      const changeHtml = (tag, content) => {
+        document.getElementById("tag").textContent = tag;
+        document.getElementById("content").textContent = content;
+      };
+
+      const getSelectionData = () => {
+        const selection = window.getSelection();
+
+        const content = selection.baseNode.data;
+        const tag = selection.baseNode.parentNode.localName;
+
+        console.log(content);
+        console.log(tag);
+        changeHtml(tag, content);
+      };
+
+      document.addEventListener("click", getSelectionData);
+    </script>
+  </body>
+</html>

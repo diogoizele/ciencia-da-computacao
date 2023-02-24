@@ -12,10 +12,12 @@
 
 ## Aulas
 
-## Revisões
+## Extra-curriculares
 
 - [Envio de formulário HTML vanilla 🐘](bare-form/)
+- [Get Selection - Elemento clicado](get-selection/)
 
 ## Materiais complementares
 
-[Apostila HTML](Apostila-HTML-CPW.pdf)
+[Apostila HTML - IFSUL](Apostila-HTML-CPW.pdf)
+[Apostila de HTML5 - W3C](html5-web.pdf)
