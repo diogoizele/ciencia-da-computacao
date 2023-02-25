@@ -1,0 +1,24 @@
+{
+  "files.associations": {
+    "cstdlib": "cpp",
+    "iostream": "cpp"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 3,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": false
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 3,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": false
+  },
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 3, IncludeBlocks: Merge, IndentGotoLabels: true, KeepEmptyLinesAtTheStartOfBlocks: true, AllowShortBlocksOnASingleLine: Empty}",
+  "C_Cpp.vcFormat.indent.accessSpecifiers": true,
+  "C_Cpp.vcFormat.indent.braces": true,
+  "C_Cpp.vcFormat.indent.namespaceContents": true,
+  "C_Cpp.vcFormat.indent.caseLabels": true,
+  "C_Cpp.vcFormat.indent.caseContentsWhenBlock": true
+}
