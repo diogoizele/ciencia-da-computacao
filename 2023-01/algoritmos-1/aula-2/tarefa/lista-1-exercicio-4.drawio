@@ -1,1 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T02:49:22.232Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.23" etag="fWI-5PdY1N2feNay2C_H" type="github"><diagram name="Página-1" id="-qeT1ZeOBqDmiRezLGP7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-25T03:01:05.668Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="gCbvJbLz6egi1FR2D6-E" version="20.8.23" type="github">
+  <diagram name="Página-1" id="-qeT1ZeOBqDmiRezLGP7">
+    <mxGraphModel dx="1468" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mCl62m4DUwHZ3kgj4nWp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mCl62m4DUwHZ3kgj4nWp-1" target="mCl62m4DUwHZ3kgj4nWp-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="395.19461538461536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCl62m4DUwHZ3kgj4nWp-1" value="Início" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="364.81" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mCl62m4DUwHZ3kgj4nWp-2" value="Fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="794.81" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mCl62m4DUwHZ3kgj4nWp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mCl62m4DUwHZ3kgj4nWp-5" target="mCl62m4DUwHZ3kgj4nWp-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.8461538461538" y="544.81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCl62m4DUwHZ3kgj4nWp-5" value="comissao = quantidade * preço unitário * 0,05&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="315" width="240" height="159.62" as="geometry" />
+        </mxCell>
+        <mxCell id="mCl62m4DUwHZ3kgj4nWp-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Pelo que eu entendi o algoritmo já possui internamente os seguintes valores:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Identificação do vendedor&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Código da peça&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Preço unitário da peça&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Quantidade vendida&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="334.81" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mCl62m4DUwHZ3kgj4nWp-9" value="Logo a minha lógica foi pensar no processamento com esses valores e mostrar a mensagem na tela" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="424.81" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mCl62m4DUwHZ3kgj4nWp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.397;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mCl62m4DUwHZ3kgj4nWp-10" target="mCl62m4DUwHZ3kgj4nWp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mCl62m4DUwHZ3kgj4nWp-10" value="Mostre: &quot;O vendedor &quot;, Id do vendedor, &quot;obteu uma comissao de &quot;, comissao, &quot; ao vender a peça de código&quot;, código da peça" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="534.81" width="420" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
