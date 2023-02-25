@@ -1,1 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T01:32:20.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.23" etag="g7rqfx3fvliEwAoREPZz" type="github"><diagram name="Página-1" id="VMHKXukNF56AEOFefCd6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-25T01:53:12.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="FKcZ-Dw9IGW29M2z3IWx" version="20.8.23" type="github">
+  <diagram name="Página-1" id="VMHKXukNF56AEOFefCd6">
+    <mxGraphModel dx="734" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bjOLRbgr_pWmisbDPfiA-1" target="bjOLRbgr_pWmisbDPfiA-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="59.741935483870975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-1" value="Início" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-2" value="Fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.564;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bjOLRbgr_pWmisbDPfiA-4" target="bjOLRbgr_pWmisbDPfiA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-4" value="CALCULAR ESTOQUE MÉDIO DE UMA PEÇA" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.462;entryY=0.227;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bjOLRbgr_pWmisbDPfiA-6" target="bjOLRbgr_pWmisbDPfiA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-6" value="&amp;nbsp; &amp;nbsp; Insira o valor da quantidade mínima" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjOLRbgr_pWmisbDPfiA-9" target="bjOLRbgr_pWmisbDPfiA-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-9" value="Ler quantidade mínima" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="160" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjOLRbgr_pWmisbDPfiA-12" target="bjOLRbgr_pWmisbDPfiA-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-12" value="Insira o valor da quantidade máxima" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="350" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjOLRbgr_pWmisbDPfiA-14" target="bjOLRbgr_pWmisbDPfiA-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-14" value="Ler quantidade máxima" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="160" y="450" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bjOLRbgr_pWmisbDPfiA-16" target="bjOLRbgr_pWmisbDPfiA-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234.66666666666674" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-16" value="resultado = (quantidade máxima + quantidade mínima) / 2" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bjOLRbgr_pWmisbDPfiA-23" target="bjOLRbgr_pWmisbDPfiA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjOLRbgr_pWmisbDPfiA-23" value="Soma dos valores é: resultado" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
