@@ -69,3 +69,12 @@ Explicando a representação desse exemplo de teste de mesa:
 - Na linha 12 a variável **c** é escrita, logo, colocamos entre chaves.
 
 Por fim, existem várias metodologias para fazer os testes de mesa. Alguns métodos são simplificados focando apenas nas modificações das variáveis sem detalhes das linhas ou mesmo o histórico dos valores recebidos, porém isso dificulta a reconstituição do passo a passo, e lembre-se, testes de mesa são essenciais para algoritmos complexos.
+
+## Tarefa
+
+### [Lista de exercícios 1](tarefa/lista-de-exercicios-1.pdf)
+
+1. [Exercício 1](tarefa/lista-1-exercicio-1.drawio.pdf)
+2. [Exercício 2](tarefa/lista-1-exercicio-2.drawio.pdf)
+3. [Exercício 3](tarefa/lista-1-exercicio-3.drawio.pdf)
+4. [Exercício 4](tarefa/lista-1-exercicio-4.drawio.pdf)

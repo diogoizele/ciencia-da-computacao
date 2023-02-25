@@ -1,0 +1,14 @@
+algoritmo "calcula comissao"
+
+var 
+    id_vendedor, cod_peca, quant_vendida: int;
+var 
+    comissao, preco_unit_peca: double
+
+inicio
+
+    comissao = preco_unit_peca * quant_vendida * 0.05;
+
+    escreva("O vendedor " + id_vendedor + " conseguiu uma comissao de: " + comissao + " vendendo a peça de código: " cod_peca);
+
+fimalgoritmo
