@@ -16,6 +16,7 @@
 
 - [Envio de formulário HTML vanilla 🐘](bare-form/)
 - [Get Selection - Elemento clicado](get-selection/)
+- [Web Server Apache](web-server-apache/)
 
 ## Materiais complementares
 
