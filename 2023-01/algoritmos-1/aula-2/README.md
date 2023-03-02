@@ -57,7 +57,7 @@ fimalgoritmo
 | 4     | ?   | ?   | ?    |
 | 8     | (5) | ?   | ?    |
 | 10    |     | (8) | ?    |
-| 11    |     | (8) | 13   |
+| 11    |     |     | 13   |
 | 12    |     |     | {13} |
 
 Explicando a representação desse exemplo de teste de mesa:

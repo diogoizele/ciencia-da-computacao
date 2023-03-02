@@ -7,6 +7,18 @@ var
 
 inicio
 
+    mostre("Informe o id do vendedor: ");
+    ler(id_vendedor);
+
+    mostre("Informe o código da peça: ");
+    ler(cod_peca);
+
+    mostre("Informe a quantidade de peças vendidas: ");
+    ler(quant_vendida);
+
+    mostre("Informe o preço unitário da peça: ");
+    ler(preco_unit_peca);
+
     comissao = preco_unit_peca * quant_vendida * 0.05;
 
     escreva("O vendedor " + id_vendedor + " conseguiu uma comissao de: " + comissao + " vendendo a peça de código: " cod_peca);
