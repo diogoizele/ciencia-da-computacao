@@ -2,7 +2,8 @@
   "files.associations": {
     "cstdlib": "cpp",
     "iostream": "cpp",
-    "ios": "cpp"
+    "ios": "cpp",
+    "ostream": "cpp"
   },
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools",
