@@ -5,3 +5,4 @@ A disciplina abrangerá introdução aos sistemas de numeração e de representa
 ## Aulas
 
 [Aula 1 - Sinais Digitais e Analógicos](aula-1/)
+[Aula 2 - Sistema de numeração](aula-2/)
