@@ -1,74 +1,88 @@
 <!DOCTYPE html>
 <html>
-
-    <!-- 0) Complete os items da listagem abaixo incluindo um 
+  <!-- 0) Complete os items da listagem abaixo incluindo um 
         texto formatado (<p>) para descrever a funcionalidade de cada tag.-->
 
-    <head>
-        <meta charset="utf-8">
-        <title>CPW - Exercício - Zero</title>         
-    </head> 
-   
-    <h3>Listagem das principais tags da HTML:</h3>
-    <body>
+  <head>
+    <meta charset="utf-8" />
+    <title>CPW - Exercício - Zero</title>
+  </head>
 
-        <ul>
-            <li>&lt;head&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e/ou MDN o significado desta tag -->
+  <h3>Listagem das principais tags da HTML:</h3>
+  <body>
+    <ul>
+      <li>&lt;head&gt;</li>
+      <li>&lt;style&gt;</li>
+      <li>&lt;title&gt;</li>
+      <li>&lt;body&gt;</li>
+      <li>&lt;footer&gt;</li>
+      <li>&lt;label&gt;</li>
+      <li>&lt;i&gt;</li>
+      <li>&lt;strong&gt;</li>
+      <li>&lt;small&gt;</li>
+      <li>&lt;br&gt;</li>
+      <li>&lt;hr&gt;</li>
+      <li>&lt;b&gt;</li>
+      <li>&lt;div&gt;</li>
+      <li>&lt;form&gt;</li>
+      <li>&lt;input&gt;</li>
+      <li>&lt;tr&gt;</li>
+      <li>&lt;td&gt;</li>
+      <li>&lt;span&gt;</li>
+      <li>&lt;img&gt;</li>
+      <li>&lt;audio&gt;</li>
+      <li>&lt;canvas&gt;</li>
+      <li>&lt;datalist&gt;</li>
+      <li>&lt;details&gt;</li>
+      <li>&lt;embed&gt;</li>
+      <li>&lt;ul&gt;</li>
+      <li>&lt;ol&gt;</li>
+      <li>&lt;li&gt;</li>
+    </ul>
 
-            <li>&lt;style&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e/ou MDN o significado desta tag -->
+    <script>
+      const listas = Array.from(document.querySelectorAll("li"));
+      const resumos = [
+        "O elemento HTML contém informações legíveis por máquina ( metadados ) sobre o documento, como seu título , scripts e folhas de estilo .<head>",
+        "O elemento HTML contém informações de estilo para um documento ou parte de um documento. Ele contém CSS, que é aplicado ao conteúdo do documento que contém o elemento.<style> <style>",
+        "O elemento HTML define o título do documento que é mostrado na barra de título de um navegador ou na guia de uma página. Ele contém apenas texto; tags dentro do elemento são ignoradas.<title>",
+        "O elemento HTML representa o conteúdo de um documento HTML. Só pode haver um elemento em um documento.<body> <body>",
+        "O elemento HTML representa um rodapé para seu conteúdo de seção ancestral mais próximo ou elemento raiz de seção . A normalmente contém informações sobre o autor da seção, dados de direitos autorais ou links para documentos relacionados.<footer> <footer>",
+        "O elemento HTML representa uma legenda para um item em uma interface de usuário.<label>",
+        "O elemento HTML representa uma faixa de texto que se destaca do texto normal por algum motivo, como texto idiomático, termos técnicos, designações taxonômicas, entre outros. Historicamente, estes têm sido apresentados em itálico, que é a fonte original da nomenclatura deste elemento.<i> <i>",
+        "O elemento HTML indica que seu conteúdo tem forte importância, seriedade ou urgência. Os navegadores normalmente renderizam o conteúdo em negrito.<strong>",
+        "O elemento HTML representa comentários laterais e letras pequenas, como direitos autorais e texto legal, independentemente de sua apresentação estilizada. Por padrão, ele renderiza o texto dentro dele com um tamanho de fonte menor, como de para .<small> smallx-small",
+        "O elemento HTML produz uma quebra de linha no texto (retorno de carro). É útil para escrever um poema ou um discurso, onde a divisão de linhas é significativa.",
+        "O elemento HTML representa uma quebra temática entre elementos de nível de parágrafo: por exemplo, uma mudança de cena em uma história ou uma mudança de tópico dentro de uma seção.<hr>",
+        "O elemento HTML é usado para chamar a atenção do leitor para o conteúdo do elemento, que de outra forma não recebe importância especial. Isso era conhecido anteriormente como o elemento Boldface, e a maioria dos navegadores ainda desenha o texto em negrito. No entanto, você não deve usar para estilizar texto ou conceder importância. Se você deseja criar texto em negrito, deve usar a propriedade CSS. Se você deseja indicar que um elemento é de especial importância, você deve usar o elemento.<b> <b>font-weight<strong>",
+        "O elemento HTML é o contêiner genérico para o conteúdo do fluxo. Ele não tem efeito no conteúdo ou no layout até que seja estilizado de alguma forma usando CSS (por exemplo, o estilo é aplicado diretamente a ele ou algum tipo de modelo de layout como o Flexbox é aplicado ao seu elemento pai).<div>",
+        "O elemento HTML representa uma seção de documento contendo controles interativos para envio de informações.<form>",
+        "O elemento HTML é usado para criar controles interativos para formulários baseados na web para aceitar dados do usuário; uma ampla variedade de tipos de dados de entrada e widgets de controle estão disponíveis, dependendo do dispositivo e do agente do usuário . O elemento é um dos mais poderosos e complexos em todo o HTML devido ao grande número de combinações de tipos e atributos de entrada.<input> <input>",
+        "O elemento HTML define uma linha de células em uma tabela. As células da linha podem então ser estabelecidas usando uma combinação de elementos (célula de dados) e (célula de cabeçalho).<tr> <td><th>",
+        "O elemento HTML define uma célula de uma tabela que contém dados. Participa do modelo de tabela .<td>",
+        "O elemento HTML é um contêiner em linha genérico para conteúdo de frase, que não representa inerentemente nada. Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos ou ) ou porque eles compartilham valores de atributo, como . Deve ser usado somente quando nenhum outro elemento semântico é apropriado. é muito parecido com um elemento, mas é um elemento de nível de bloco , enquanto a é um elemento embutido .<span> classidlang<span><div><div><span>",
+        "O elemento HTML incorpora uma imagem no documento.<img>",
+        "O elemento HTML é usado para incorporar conteúdo de som em documentos. Pode conter uma ou mais fontes de áudio, representadas pelo atributo ou pelo elemento: o navegador escolherá a mais adequada. Ele também pode ser o destino da mídia transmitida, usando um arquivo .<audio> src<source>MediaStream",
+        "Use o elemento HTML<canvas> com a API de script de tela ou a API WebGL para desenhar gráficos e animações.",
+        "O elemento HTML contém um conjunto de elementos que representam as opções permitidas ou recomendadas disponíveis para escolha em outros controles.<datalist> <option>",
+        'O elemento HTML cria um widget de divulgação no qual as informações são visíveis apenas quando o widget é alternado para um estado "aberto". Um resumo ou rótulo deve ser fornecido usando o elemento.<details> <summary>',
+        "O elemento HTML incorpora conteúdo externo no ponto especificado no documento. Este conteúdo é fornecido por um aplicativo externo ou outra fonte de conteúdo interativo, como um plug-in de navegador.<embed>",
+        "O elemento HTML representa uma lista não ordenada de itens, normalmente renderizada como uma lista com marcadores.<ul>",
+        "O elemento HTML representa uma lista ordenada de itens — normalmente renderizada como uma lista numerada.<ol>",
+        "O elemento HTML é usado para representar um item em uma lista. Deve estar contido em um elemento pai: uma lista ordenada ( ), uma lista não ordenada ( ) ou um menu ( ). Em menus e listas não ordenadas, os itens da lista geralmente são exibidos usando marcadores. Em listas ordenadas, eles geralmente são exibidos com um contador crescente à esquerda, como um número ou uma letra.<li> <ol><ul><menu>",
+      ];
 
-            <li>&lt;title&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e/ou MDN o significado desta tag -->
+      listas.forEach((elementLi, indice) => {
+        const tag = document.createElement("p");
 
-            <li>&lt;body&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e/ou MDN o significado desta tag -->
+        if (resumos[indice]) {
+          tag.textContent = " " + resumos[indice];
+        } else {
+          tag.textContent = "Resumo não encontrado!";
+        }
 
-            <li>&lt;footer&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e/ou MDN o significado desta tag -->
-
-            <li>&lt;label&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e/ou MDN o significado desta tag -->
-
-            <li>&lt;i&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e/ou MDN o significado desta tag -->
-
-            <li>&lt;strong&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e/ou MDN o significado desta tag -->
-
-            <li>&lt;small&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e/ou MDN o significado desta tag -->
-
-            <li>&lt;br&gt;</li><!-- Atividade: pesquisar na documentacação do W3C e/ou MDN o significado desta tag -->
-
-            <li>&lt;hr&gt;</li><!-- Atividade: pesquisar na documentacação do W3C e/ou MDN o significado desta tag -->
-
-            <li>&lt;b&gt;</li><!-- Atividade: pesquisar na documentacação do W3C e/ou MDN o significado desta tag -->
-
-            <li>&lt;div&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e/ou MDN o significado desta tag -->
-
-            <li>&lt;form&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->
-
-            <li>&lt;input&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->
-
-            <li>&lt;tr&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->
-
-            <li>&lt;td&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->
-            
-            <li>&lt;span&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->
-
-            <li>&lt;img&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->                         
-
-            <li>&lt;audio&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->
-
-            <li>&lt;canvas&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->
-
-            <li>&lt;datalist&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->
-
-            <li>&lt;details&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->                       
-
-            <li>&lt;embed&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->       
-
-            <li>&lt;ul&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->
-
-            <li>&lt;ol&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->
-
-            <li>&lt;li&gt;</li> <!-- Atividade: pesquisar na documentacação do W3C e MDN o significado desta tag  e incluir um exemplo -->
-
-        </ul>
-
-    </body>
-    
+        elementLi.appendChild(tag);
+      });
+    </script>
+  </body>
 </html>
