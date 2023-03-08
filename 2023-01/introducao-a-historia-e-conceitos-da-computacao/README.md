@@ -6,3 +6,4 @@ Elementos da história da computação. Conceitos básicos sobre a computação 
 
 - [Aula 1 - Conceitos de Tecnologia](aula-1/)
 - [Aula 2 - História e Evolução](aula-2/)
+- [Aula 3 - Resenha sobre história e evolução](aula-3/)
