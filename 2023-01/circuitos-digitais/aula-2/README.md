@@ -225,3 +225,9 @@ Dois passos:
 
 - Converter hexa para binário.
 - Converter binário para octal.
+
+## Tarefa
+
+Faça a conversão de bases numéricas.
+
+[Resposta da tarefa](tarefa.md)
