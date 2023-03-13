@@ -6,3 +6,4 @@ A disciplina abrangerá introdução aos sistemas de numeração e de representa
 
 - [Aula 1 - Sinais Digitais e Analógicos](aula-1/)
 - [Aula 2 - Sistema de numeração](aula-2/)
+- [Aula 3 - Sinal-magnitude e complemento de 2](aula-3/)
